@@ -21,6 +21,7 @@ body {
     text-align: center;
     width: 90%;
     max-width: 600px;
+    padding: 20px;
 }
 
 /* Header styling */
@@ -104,4 +105,21 @@ header {
 /* Hover effect for the restart button */
 #restart:hover {
     background-color: #21a1f1;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 600px) {
+    #game-container {
+        width: 100%;
+    }
+
+    .card-face {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 400px) {
+    .card-face {
+        font-size: 16px;
+    }
 }
